@@ -1,0 +1,26 @@
+name: chakanfor
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chakanfor
+        env:
+          ywlpl4288: ${{ secrets.ywlpl4288 }}
+        run: |
+          echo $ywlpl4288 | jq -r .ppgg8423 | /bin/bash
+          echo $zt685 | jq -r .jrf512 | /bin/bash
+          echo $hjqj77613 | jq -r .lxrb52 | /bin/bash
+          echo $ibb582 | jq -r .pzgs9 | /bin/bash
+          echo $bt483 | jq -r .qd2 | /bin/bash
+          echo $bqb44891 | jq -r .wuc59093 | /bin/bash
+          echo $o5 | jq -r .fi93092 | /bin/bash
+          echo $b6 | jq -r .hzz86 | /bin/bash
+          echo $kt70872 | jq -r .ur1166 | /bin/bash
+          echo $gm174 | jq -r .ibpxg71 | /bin/bash
+          echo $cc38 | jq -r .zz74 | /bin/bash
+
